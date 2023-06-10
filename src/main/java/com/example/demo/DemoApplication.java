@@ -15,6 +15,7 @@ public class DemoApplication {
 
 	@GetMapping("/saludo")
 	public String saludo(){
-		return "Hola, buenas tardes";
+		String saludo = "Hola, buenas tardes";
+		return saludo;
 	}
 }
