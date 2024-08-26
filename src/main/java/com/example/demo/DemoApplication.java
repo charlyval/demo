@@ -16,7 +16,7 @@ public class DemoApplication {
 	@GetMapping("/saludo")
 	public String saludo(){
 		//Prueba Jenkins, sexta parte
-		String saludo = "Hola, buenas tardes desde la versión 0.0.2";
+		String saludo = "Hola, que tal estamos desde la actualizazión del tag 0.0.1";
 		return saludo;
 	}
 }
